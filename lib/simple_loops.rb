@@ -12,7 +12,7 @@ def loop_message_n_times (message, int)
 end
 
 def output_array (array)
-  array.each |element|
+  array.each do |element|
     puts element
   end
 end
