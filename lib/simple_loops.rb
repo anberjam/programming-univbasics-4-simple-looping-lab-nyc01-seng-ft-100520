@@ -17,6 +17,9 @@ def output_array (array)
   end
 end
 
-def return_string_array
-  
+def return_string_array (array)
+  counter=0
+  array.each do |element|
+    element.to_s 
+    array[counter]=
 end
