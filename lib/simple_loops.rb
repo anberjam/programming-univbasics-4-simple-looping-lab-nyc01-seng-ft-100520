@@ -20,6 +20,8 @@ end
 def return_string_array (array)
   counter=0
   array.each do |element|
-    element.to_s 
-    array[counter]=
+    array[counter]=element.to_s
+    counter+=1
+  end
+  array
 end
